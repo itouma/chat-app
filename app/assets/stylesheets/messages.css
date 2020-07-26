@@ -1,0 +1,43 @@
+.wrapper{
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+.side-create-room {
+  height: 100px;
+  padding: 0 20px;
+}
+.side-room-list {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px) ;
+  padding: 0 20px;
+}
+
+.main {
+  background-color: #ffffff;
+  width: calc(100% - 300px) ;
+}
+.main-current-room {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main-message {
+  background-color: #FAFAFA;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+}
+
+.main-form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}

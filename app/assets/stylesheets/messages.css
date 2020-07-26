@@ -14,11 +14,37 @@
 .side-create-room {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.current-user a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room a {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue ;
+  text-decoration: none;
+}
+
 .side-room-list {
   background-color: #2F3E51;
   height: calc(100vh - 100px) ;
   padding: 0 20px;
+  overflow: scroll;
+}
+.side-room{
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .main {
